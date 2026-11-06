@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Security Awareness Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial;
+      background: #f0f2f5;
+      text-align: center;
+      padding: 30px 15px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      max-width: 350px;
+      margin: auto;
+    }
+    button {
+      background: #1877f2;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>🔐 Security Awareness</h2>
+    <p>This is a simulated security alert.</p>
+    <p>Your account is NOT in danger.</p>
+    <button onclick="showLesson()">View lesson</button>
+    <p id="lesson"></p>
+  </div>
+
+  <script>
+    function showLesson() {
+      document.getElementById("lesson").innerText =
+        "Training complete! Always verify security alerts through official apps. Never share passwords or verification codes.";
+    }
+  </script>
+</body>
+</html>
